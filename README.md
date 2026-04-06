@@ -5,18 +5,18 @@
   <img alt="GitHub License" src="https://img.shields.io/github/license/D-Sketon/astro-theme-reimu">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/D-Sketon/astro-theme-reimu">
 
-💘 博麗 霊夢 💘
+💘 Hakurei Reimu 💘
 
-[演示网站](https://d-sketon.github.io/astro-theme-reimu)
+[Demo](https://d-sketon.github.io/astro-theme-reimu)
 
-简体中文 | [English](https://github.com/D-Sketon/astro-theme-reimu/blob/main/README.en.md)
+[简体中文](https://github.com/D-Sketon/astro-theme-reimu/blob/main/README.md) | English
 
 <img src="https://cdn.jsdelivr.net/gh/D-Sketon/astro-theme-reimu/screenshot.png"/>
 </div>
 
 ---
 
-本主题是 [hexo-theme-reimu](https://github.com/D-Sketon/hexo-theme-reimu) 的 Astro 移植版本，一款博丽灵梦风格的 Astro 主题。
+This theme is an Astro port of [hexo-theme-reimu](https://github.com/D-Sketon/hexo-theme-reimu), a Hakurei Reimu style Astro theme.
 
 | framework                    | repository                                                         | version                                                                                                                                                                                     | stars                                                                                              |
 | ---------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
@@ -24,27 +24,27 @@
 | [Hugo](https://gohugo.io)    | [hugo-theme-reimu](https://github.com/D-Sketon/hugo-theme-reimu)   | <img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fhugo-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version">  | <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/D-Sketon/hugo-theme-reimu">  |
 | [Astro](https://astro.build) | [astro-theme-reimu](https://github.com/D-Sketon/astro-theme-reimu) | <img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fastro-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version"> | <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/D-Sketon/astro-theme-reimu"> |
 
-**欢迎提交 ISSUE 和 PR！**
+**Issues and PRs are welcome!**
 
-## 特性
+## Features
 
-### 基础功能
+### Core Features
 
-- ✨ 完整的博客功能
-- 📱 响应式布局
-- 🌙 暗黑模式支持
-- 🌍 多语言支持（i18n）
+- ✨ Complete blog functionality
+- 📱 Responsive layout
+- 🌙 Dark mode support
+- 🌍 Multi-language support (i18n)
 
-### 代码与数学
+### Code & Math
 
-- 🖥️ 代码高亮（基于 Expressive Code）
-- ➗ KaTeX 数学公式支持
-- 📊 Mermaid 流程图支持
+- 🖥️ Code highlighting (based on Expressive Code)
+- ➗ KaTeX math formula support
+- 📊 Mermaid flowchart support
 
-### 搜索与评论
+### Search & Comments
 
-- 🔍 本地搜索（基于 Fuse.js）
-- 💬 多评论系统支持：
+- 🔍 Local search (based on Fuse.js)
+- 💬 Multiple comment systems support:
   - Valine
   - Waline
   - Twikoo
@@ -53,70 +53,70 @@
   - Disqus
   - Utterances
 
-### 统计与分析
+### Statistics & Analytics
 
-- 📊 文章阅读统计（Waline/Valine）
-- 👥 访客统计（不蒜子）
-- 📈 网站分析：
-  - 百度统计
+- 📊 Article reading statistics (Waline/Valine)
+- 👥 Visitor statistics (busuanzi)
+- 📈 Website analytics:
+  - Baidu Analytics
   - Google Analytics
   - Clarity
 
-### 媒体与交互功能
+### Media & Interaction
 
-- 🖼️ 图片懒加载
-- 🖼️ 图片灯箱
-- ⚡ 加载动画
-- 🎨 AOS 滚动动画
-- 🎯 鼠标特效
+- 🖼️ Image lazy loading
+- 🖼️ Image lightbox
+- ⚡ Loading animation
+- 🎨 AOS scroll animation
+- 🎯 Mouse effects
 
-### 导航与结构
+### Navigation & Structure
 
-- 📑 目录导航
-- 📰 RSS 订阅
+- 📑 Table of contents
+- 📰 RSS feed
 
-### 设计与自定义
+### Design & Customization
 
-- 🎨 图标支持（FontAwesome、Iconify）
-- 🔗 内置 MDX 组件：
-  - 内部链接
-  - 外部链接
-  - 友情链接
-  - 热力图
-  - 标签轮盘
-  - 标签页
-  - 照片墙
-- ©️ 文章版权声明
-- 🌐 响应式头图（srcset）
-- 🎨 分享卡片功能
+- 🎨 Icon support (FontAwesome, Iconify)
+- 🔗 Built-in MDX components:
+  - Internal links
+  - External links
+  - Friend links
+  - Heat map
+  - Tag roulette
+  - Tabs
+  - Photo gallery
+- ©️ Article copyright notice
+- 🌐 Responsive banner (srcset)
+- 🎨 Share card functionality
 
-## 安装与使用
+## Installation & Usage
 
-### 快速开始
+### Quick Start
 
 ```bash
-# 克隆仓库
+# Clone the repository
 git clone https://github.com/D-Sketon/astro-theme-reimu.git
 cd astro-theme-reimu
 
-# 安装依赖（推荐使用 pnpm）
+# Install dependencies (pnpm recommended)
 pnpm install
 
-# 启动开发服务器
+# Start development server
 pnpm run dev
 
-# 构建生产版本
+# Build for production
 pnpm run build
 
-# 预览构建结果
+# Preview build
 pnpm run preview
 ```
 
-### 项目结构
+### Project Structure
 
 ```plain
 /
-├── public/              # 静态资源
+├── public/              # Static assets
 │   ├── images/
 │   │   ├── banner.webp
 │   │   ├── banner-800w.webp
@@ -126,106 +126,106 @@ pnpm run preview
 │   │   └── taichi.png
 │   └── robots.txt
 ├── src/
-│   ├── components/      # Astro/React 组件
-│   ├── content/         # 内容集合
-│   │   └── blog/        # 博客文章
-│   ├── content.config.ts# 内容集合配置
+│   ├── components/      # Astro/React components
+│   ├── content/         # Content collections
+│   │   └── blog/        # Blog posts
+│   ├── content.config.ts# Content collection config
 │   ├── hooks/           # React Hooks
-│   ├── languages/       # i18n 语言文件
+│   ├── languages/       # i18n language files
 │   │   ├── en.ts
 │   │   ├── zh-cn.ts
 │   │   ├── zh-tw.ts
 │   │   └── ja.ts
-│   ├── layouts/         # 页面布局
-│   ├── pages/           # 页面路由
-│   │   ├── about.mdx    # 关于页面
-│   │   ├── archives/    # 归档页面
-│   │   ├── blog/        # 博客页面
-│   │   ├── categories/  # 分类页面
-│   │   ├── tags/        # 标签页面
-│   │   └── rss.xml.js   # RSS 订阅
-│   ├── plugins/         # Markdown 插件
-│   ├── styles/          # 样式文件
-│   ├── utils/           # 工具函数
-│   ├── config.ts        # 主题配置文件
-│   ├── covers.ts        # 封面图配置
+│   ├── layouts/         # Page layouts
+│   ├── pages/           # Page routes
+│   │   ├── about.mdx    # About page
+│   │   ├── archives/    # Archive pages
+│   │   ├── blog/        # Blog pages
+│   │   ├── categories/  # Category pages
+│   │   ├── tags/        # Tag pages
+│   │   └── rss.xml.js   # RSS feed
+│   ├── plugins/         # Markdown plugins
+│   ├── styles/          # Style files
+│   ├── utils/           # Utility functions
+│   ├── config.ts        # Theme config
+│   ├── covers.ts        # Cover images config
 │   └── env.d.ts
-├── astro.config.mjs     # Astro 配置
+├── astro.config.mjs     # Astro config
 ├── package.json
 └── tsconfig.json
 ```
 
-任何静态资产（如图像）都可以放置在 `public/` 目录中。  
-所有博客文章都存储在目录 `src/content/blog` 中，关于页面存储在目录 `src/pages` 中。
+Any static assets (such as images) can be placed in the `public/` directory.  
+All blog posts are stored in the `src/content/blog` directory, and the about page is stored in the `src/pages` directory.
 
-## 配置
+## Configuration
 
-编辑 `src/config.ts` 进行主题配置：
+Edit `src/config.ts` to configure the theme:
 
 <details>
-<summary>基本配置</summary>
+<summary>Basic Configuration</summary>
 
-##### 站点信息
+##### Site Information
 
 ```typescript
 export default {
   site: {
-    title: "My Blog", // 站点标题
-    subtitle: "My Blog Subtitle", // 站点副标题
-    description: "Your blog description", // 站点描述
-    keywords: "blog, astro, theme", // 关键词
-    author: "Your Name", // 作者名称
-    language: "zh-CN", // 站点语言 (en | zh-CN | zh-TW | ja)
+    title: "My Blog", // Site title
+    subtitle: "My Blog Subtitle", // Site subtitle
+    description: "Your blog description", // Site description
+    keywords: "blog, astro, theme", // Keywords
+    author: "Your Name", // Author name
+    language: "zh-CN", // Site language (en | zh-CN | zh-TW | ja)
   },
 };
 ```
 
-##### 侧边栏
+##### Sidebar
 
 ```typescript
 export default {
   sidebar: {
-    avatar: "/images/avatar.webp", // 头像路径（相对于 public 目录）
-    position: "right", // 侧边栏位置 (left | right)
+    avatar: "/images/avatar.webp", // Avatar path (relative to public directory)
+    position: "right", // Sidebar position (left | right)
   },
 };
 ```
 
-##### 侧边栏小部件
+##### Sidebar Widgets
 
 ```typescript
 export default {
   widgets: [
-    "category", // 分类
-    "tag", // 标签
-    "tagcloud", // 标签云
-    "archive", // 归档
-    "recent_posts", // 最近文章
+    "category", // Categories
+    "tag", // Tags
+    "tagcloud", // Tag cloud
+    "archive", // Archives
+    "recent_posts", // Recent posts
   ],
 };
 ```
 
-##### 菜单导航
+##### Navigation Menu
 
 ```typescript
 export default {
   menu: [
-    { name: "home", url: "/" }, // 菜单项名称（对应 i18n 翻译）
+    { name: "home", url: "/" }, // Menu item name (corresponds to i18n translation)
     { name: "archives", url: "/archives" },
     { name: "about", url: "/about" },
   ],
 };
 ```
 
-##### 头图与封面
+##### Banner & Cover
 
-###### 头图配置
+###### Banner Configuration
 
 ```typescript
 export default {
-  banner: "/images/banner.webp", // 头图路径
+  banner: "/images/banner.webp", // Banner path
 
-  // 响应式头图（可选）
+  // Responsive banner (optional)
   banner_srcset: {
     enable: true,
     srcset: [
@@ -237,9 +237,9 @@ export default {
 };
 ```
 
-###### 封面配置
+###### Cover Configuration
 
-在 `src/covers.ts` 中配置随机封面图列表：
+Configure random cover image list in `src/covers.ts`:
 
 ```typescript
 export default [
@@ -249,34 +249,34 @@ export default [
 ];
 ```
 
-文章封面显示逻辑：
+Article cover display logic:
 
-1. 如果文章 Front Matter 中指定了 `cover`，则使用指定的封面
-2. 否则从 `covers.ts` 中随机选择一张
-3. 如果 `covers.ts` 为空，则使用头图作为封面
+1. If `cover` is specified in the article's Front Matter, use the specified cover
+2. Otherwise, randomly select one from `covers.ts`
+3. If `covers.ts` is empty, use the banner as cover
 
-##### 页脚
+##### Footer
 
 ```typescript
 export default {
   footer: {
-    since: 2020, // 起始年份（会显示为 2020 - 当前年份）
-    powered: true, // 是否显示 "Powered by Astro"
-    count: true, // 是否显示文章统计
-    busuanzi: true, // 是否启用不蒜子访客统计
+    since: 2020, // Start year (displays as 2020 - current year)
+    powered: true, // Show "Powered by Astro"
+    count: true, // Show article statistics
+    busuanzi: true, // Enable busuanzi visitor statistics
     icp: {
-      icpnumber: "", // ICP备案号
-      beian: "", // 网安备案号
-      recordcode: "", // 网安备案链接中的recordcode参数
+      icpnumber: "", // ICP license number
+      beian: "", // Public security record number
+      recordcode: "", // Public security record link recordcode parameter
     },
     moe_icp: {
-      icpnumber: "", // 萌国ICP备案号
+      icpnumber: "", // Moe ICP license number
     },
   },
 };
 ```
 
-##### 社交链接
+##### Social Links
 
 ```typescript
 export default {
@@ -285,7 +285,7 @@ export default {
     github: "https://github.com/yourname",
     twitter: "https://twitter.com/yourname",
     facebook: "https://www.facebook.com/yourname",
-    // 更多社交平台...
+    // More social platforms...
   },
 };
 ```
@@ -293,36 +293,36 @@ export default {
 </details>
 
 <details>
-<summary>评论系统</summary>
+<summary>Comment Systems</summary>
 
 ##### Waline
 
-[Waline](https://waline.js.org/) 是一个简洁、安全的评论系统。
+[Waline](https://waline.js.org/) is a simple and secure comment system.
 
 ```typescript
 export default {
   waline: {
     enable: true,
-    serverURL: "your-server-url", // Waline 服务器地址
-    lang: "zh-CN", // 语言
-    locale: {}, // 自定义语言包
+    serverURL: "your-server-url", // Waline server URL
+    lang: "zh-CN", // Language
+    locale: {}, // Custom locale
     emoji: [
-      // 表情包
+      // Emoji sets
       "https://unpkg.com/@waline/emojis@1.2.0/weibo",
       "https://unpkg.com/@waline/emojis@1.2.0/bilibili",
     ],
-    meta: ["nick", "mail", "link"], // 评论者信息
-    requiredMeta: ["nick", "mail"], // 必填项
-    wordLimit: 0, // 评论字数限制（0 为不限制）
-    pageSize: 10, // 每页评论数
-    pageview: true, // 是否启用浏览量统计
+    meta: ["nick", "mail", "link"], // Commenter info
+    requiredMeta: ["nick", "mail"], // Required fields
+    wordLimit: 0, // Comment word limit (0 for unlimited)
+    pageSize: 10, // Comments per page
+    pageview: true, // Enable pageview statistics
   },
 };
 ```
 
 ##### Valine
 
-[Valine](https://valine.js.org/) 是一个基于 LeanCloud 的快速、简洁且高效的无后端评论系统。
+[Valine](https://valine.js.org/) is a fast, simple and efficient serverless comment system based on LeanCloud.
 
 ```typescript
 export default {
@@ -330,22 +330,22 @@ export default {
     enable: true,
     appId: "your-app-id", // LeanCloud App ID
     appKey: "your-app-key", // LeanCloud App Key
-    pageSize: 10, // 评论列表分页
-    avatar: "mp", // Gravatar 头像风格
-    lang: "zh-cn", // 语言
-    placeholder: "Just go go", // 评论框占位文本
-    guest_info: "nick,mail,link", // 评论者信息字段
-    recordIP: true, // 是否记录评论者 IP
-    highlight: true, // 是否高亮代码块
-    visitor: false, // 是否显示访问量
-    serverURLs: "", // LeanCloud 服务器地址（可选）
+    pageSize: 10, // Comment list pagination
+    avatar: "mp", // Gravatar avatar style
+    lang: "zh-cn", // Language
+    placeholder: "Just go go", // Comment box placeholder
+    guest_info: "nick,mail,link", // Commenter info fields
+    recordIP: true, // Record commenter IP
+    highlight: true, // Highlight code blocks
+    visitor: false, // Show visitor count
+    serverURLs: "", // LeanCloud server URL (optional)
   },
 };
 ```
 
 ##### Gitalk
 
-[Gitalk](https://gitalk.github.io/) 是一个基于 GitHub Issue 和 Preact 的现代评论组件。
+[Gitalk](https://gitalk.github.io/) is a modern comment component based on GitHub Issue and Preact.
 
 ```typescript
 export default {
@@ -353,73 +353,73 @@ export default {
     enable: true,
     clientID: "your-client-id", // GitHub Application Client ID
     clientSecret: "your-client-secret", // GitHub Application Client Secret
-    repo: "your-repo", // 存储评论的 GitHub 仓库
-    owner: "your-name", // 仓库所有者
-    admin: ["your-name"], // 仓库管理员（可以是数组）
+    repo: "your-repo", // GitHub repository for storing comments
+    owner: "your-name", // Repository owner
+    admin: ["your-name"], // Repository admin (can be array)
   },
 };
 ```
 
 ##### Giscus
 
-[Giscus](https://giscus.app/zh-CN) 是一个基于 GitHub Discussion 的评论系统。
+[Giscus](https://giscus.app/en) is a comment system powered by GitHub Discussions.
 
 ```typescript
 export default {
   giscus: {
     enable: true,
-    repo: "your-username/your-repo", // GitHub 仓库
-    repoId: "your-repo-id", // 仓库 ID
-    category: "your-category", // 分类名称
-    categoryId: "your-category-id", // 分类 ID
-    mapping: "pathname", // 评论映射方式
-    strict: 0, // 严格模式
-    reactionsEnabled: 1, // 启用反应
-    emitMetadata: 0, // 发出元数据
-    inputPosition: "bottom", // 输入框位置
+    repo: "your-username/your-repo", // GitHub repository
+    repoId: "your-repo-id", // Repository ID
+    category: "your-category", // Category name
+    categoryId: "your-category-id", // Category ID
+    mapping: "pathname", // Comment mapping
+    strict: 0, // Strict mode
+    reactionsEnabled: 1, // Enable reactions
+    emitMetadata: 0, // Emit metadata
+    inputPosition: "bottom", // Input position
   },
 };
 ```
 
 ##### Twikoo
 
-[Twikoo](https://twikoo.js.org/) 支持多种部署方式的评论系统。
+[Twikoo](https://twikoo.js.org/) supports multiple deployment methods for comment systems.
 
 ```typescript
 export default {
   twikoo: {
     enable: true,
-    envId: "your-env-id", // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
-    region: "", // 腾讯云区域（可选）
+    envId: "your-env-id", // Tencent Cloud environment ID；Vercel environment uses address (https://xxx.vercel.app)
+    region: "", // Tencent Cloud region (optional)
   },
 };
 ```
 
 ##### Utterances
 
-[Utterances](https://utteranc.es/) 是一个基于 GitHub Issue 的轻量级评论组件。
+[Utterances](https://utteranc.es/) is a lightweight comment component based on GitHub Issues.
 
 ```typescript
 export default {
   utterances: {
     enable: true,
-    repo: "owner/repo", // GitHub 仓库
-    issue_term: "title", // Issue 映射方式
-    theme: "github-light", // 主题
+    repo: "owner/repo", // GitHub repository
+    issue_term: "title", // Issue mapping
+    theme: "github-light", // Theme
   },
 };
 ```
 
 ##### Disqus
 
-[Disqus](https://disqus.com/) 是一个全球性的评论系统。
+[Disqus](https://disqus.com/) is a global comment system.
 
 ```typescript
 export default {
   disqus: {
     enable: true,
     shortname: "your-shortname", // Disqus shortname
-    count: true, // 是否启用评论数量统计
+    count: true, // Enable comment count statistics
   },
 };
 ```
@@ -427,14 +427,14 @@ export default {
 </details>
 
 <details>
-<summary>分析与统计</summary>
+<summary>Analytics & Statistics</summary>
 
-##### 网站分析
+##### Website Analytics
 
 ```typescript
 export default {
   analytics: {
-    baidu_analytics: "your-baidu-id", // 百度统计 ID
+    baidu_analytics: "your-baidu-id", // Baidu Analytics ID
     google_analytics: "your-ga-id", // Google Analytics ID
     clarity: "your-clarity-id", // Microsoft Clarity ID
   },
@@ -444,78 +444,78 @@ export default {
 </details>
 
 <details>
-<summary>其他功能</summary>
+<summary>Other Features</summary>
 
-##### 版权声明
+##### Copyright Notice
 
 ```typescript
 export default {
   copyright: {
-    enable: true, // 是否启用版权声明
+    enable: true, // Enable copyright notice
     content: {
-      author: true, // 显示作者
-      link: true, // 显示文章链接
-      title: true, // 显示文章标题
-      date: false, // 显示发布日期
-      updated: false, // 显示更新日期
-      license: true, // 显示许可协议
-      license_type: "by-nc-sa", // 许可协议类型
+      author: true, // Show author
+      link: true, // Show article link
+      title: true, // Show article title
+      date: false, // Show publish date
+      updated: false, // Show update date
+      license: true, // Show license
+      license_type: "by-nc-sa", // License type
     },
   },
 };
 ```
 
-##### 加载动画
+##### Loading Animation
 
 ```typescript
 export default {
   preloader: {
-    enable: true, // 是否启用加载动画
-    text: "少女祈祷中...", // 加载文本
-    rotate: true, // 图标是否旋转
+    enable: true, // Enable loading animation
+    text: "少女祈祷中...", // Loading text
+    rotate: true, // Rotate icon
   },
 };
 ```
 
-##### 友链
+##### Friend Links
 
 ```typescript
 export default {
   friend: [
     {
-      name: "Friend Name", // 友链名称
-      url: "https://friend.com", // 友链地址
-      desc: "Description", // 友链描述
-      avatar: "/avatar.webp", // 友链头像
+      name: "Friend Name", // Friend name
+      url: "https://friend.com", // Friend URL
+      desc: "Description", // Friend description
+      avatar: "/avatar.webp", // Friend avatar
     },
   ],
 };
 ```
 
-##### 首页分类卡片
+##### Home Category Cards
 
 ```typescript
 export default {
   home_categories: {
-    enable: true, // 是否启用首页分类卡片
+    enable: true, // Enable home category cards
     content: [
       {
-        categories: "Blog", // 分类名称
-        cover: "/images/category-cover.webp", // 分类封面（可选）
+        categories: "Blog", // Category name
+        cover: "/images/category-cover.webp", // Category cover (optional)
       },
     ],
   },
 };
 ```
 
-##### 分享功能
+##### Share Functionality
 
 ```typescript
 export default {
   share: [
-    "weibo", // 微博
+    "weibo", // Weibo
     "qq", // QQ
-    "weixin", // 微信
+    "weixin", // WeChat
     // "twitter",  // Twitter
     // "facebook", // Facebook
     // "linkedin", // LinkedIn
@@ -524,52 +524,52 @@ export default {
 };
 ```
 
-##### 赞助功能
+##### Sponsorship
 
 ```typescript
 export default {
   sponsor: {
-    enable: false, // 是否启用赞助功能
+    enable: false, // Enable sponsorship
     qr: [
-      { name: "支付宝", src: "/sponsor/alipay.jpg" },
-      { name: "微信", src: "/sponsor/wechat.png" },
+      { name: "Alipay", src: "/sponsor/alipay.jpg" },
+      { name: "WeChat", src: "/sponsor/wechat.png" },
     ],
   },
 };
 ```
 
-##### 文章过期提醒
+##### Article Expiration Reminder
 
 ```typescript
 export default {
   outdate: {
-    enable: false, // 是否启用文章过期提醒
-    daysAgo: 180, // 多少天前的文章算过期
+    enable: false, // Enable article expiration reminder
+    daysAgo: 180, // Days after which articles are considered expired
   },
 };
 ```
 
-##### 鼠标特效
+##### Mouse Effects
 
 ```typescript
 export default {
   firework: {
-    enable: true, // 是否启用鼠标特效
-    disable_on_mobile: false, // 是否在移动端禁用
+    enable: true, // Enable mouse effects
+    disable_on_mobile: false, // Disable on mobile
     options: {
-      // 详细配置请参考 mouse-firework 文档
+      // Detailed configuration please refer to mouse-firework documentation
     },
   },
 };
 ```
 
-##### 三角徽标
+##### Triangle Badge
 
 ```typescript
 export default {
   triangle_badge: {
     enable: false,
-    type: "github", // 图标类型
+    type: "github", // Icon type
     link: "https://github.com/yourname",
   },
 };
@@ -577,17 +577,17 @@ export default {
 
 </details>
 
-## 写作
+## Writing
 
 <details>
-<summary>创建文章</summary>
+<summary>Creating Articles</summary>
 
-在 `src/content/blog/` 目录下创建 `.md` 或 `.mdx` 文件：
+Create `.md` or `.mdx` files in the `src/content/blog/` directory:
 
 ```markdown
 ---
-title: 你的文章标题
-description: 文章描述
+title: Your Article Title
+description: Article description
 pubDate: 2024-01-01
 updatedDate: 2024-01-02
 cover: https://example.com/cover.jpg
@@ -598,52 +598,52 @@ categories:
   - category1
 ---
 
-你的文章内容...
+Your article content...
 ```
 
 </details>
 
 <details>
-<summary>Front Matter 字段</summary>
+<summary>Front Matter Fields</summary>
 
-#### Front Matter 字段
+#### Front Matter Fields
 
-| 字段        | 描述                   | 类型                 | 必填 | 默认值  |
-| ----------- | ---------------------- | -------------------- | ---- | ------- |
-| title       | 文章标题               | `string`             | 是   | -       |
-| description | 文章描述（用于 SEO）   | `string`             | 是   | -       |
-| keywords    | 文章关键词（用于 SEO） | `string[] \| string` | 否   | `[]`    |
-| pubDate     | 发布日期               | `Date`               | 是   | -       |
-| updatedDate | 更新日期               | `Date`               | 否   | -       |
-| cover       | 封面图 URL             | `string`             | 否   | -       |
-| tags        | 标签列表               | `string[]`           | 否   | `[]`    |
-| categories  | 分类列表               | `string[]`           | 否   | `[]`    |
-| excerpt     | 文章摘要               | `string`             | 否   | -       |
-| comment     | 是否启用评论系统       | `boolean`            | 否   | `true`  |
-| author      | 文章作者               | `string`             | 否   | -       |
-| toc         | 是否显示目录           | `boolean`            | 否   | `true`  |
-| sponsor     | 是否显示赞助信息       | `boolean`            | 否   | -       |
-| copyright   | 是否显示版权声明       | `boolean`            | 否   | -       |
-| share       | 是否显示分享按钮       | `boolean`            | 否   | -       |
-| outdated    | 文章是否过期           | `boolean`            | 否   | `false` |
+| Field       | Description                   | Type                 | Required | Default |
+| ----------- | ----------------------------- | -------------------- | -------- | ------- |
+| title       | Article title                 | `string`             | Yes      | -       |
+| description | Article description (for SEO) | `string`             | Yes      | -       |
+| keywords    | Article keywords (for SEO)    | `string[] \| string` | No       | `[]`    |
+| pubDate     | Publish date                  | `Date`               | Yes      | -       |
+| updatedDate | Update date                   | `Date`               | No       | -       |
+| cover       | Cover image URL               | `string`             | No       | -       |
+| tags        | Tag list                      | `string[]`           | No       | `[]`    |
+| categories  | Category list                 | `string[]`           | No       | `[]`    |
+| excerpt     | Article excerpt               | `string`             | No       | -       |
+| comment     | Enable comment system         | `boolean`            | No       | `true`  |
+| author      | Article author                | `string`             | No       | -       |
+| toc         | Show table of contents        | `boolean`            | No       | `true`  |
+| sponsor     | Show sponsorship info         | `boolean`            | No       | -       |
+| copyright   | Show copyright notice         | `boolean`            | No       | -       |
+| share       | Show share buttons            | `boolean`            | No       | -       |
+| outdated    | Article is outdated           | `boolean`            | No       | `false` |
 
 </details>
 
 <details>
-<summary>数学公式</summary>
+<summary>Math Formulas</summary>
 
-主题内置了 KaTeX 支持，可以直接在 Markdown 中使用 LaTeX 语法：
+The theme has built-in KaTeX support. You can use LaTeX syntax directly in Markdown:
 
-#### 行内公式
+#### Inline Formula
 
 ```markdown
-行内公式：$E = mc^2$
+Inline formula: $E = mc^2$
 ```
 
-#### 块级公式
+#### Block Formula
 
 ```markdown
-块级公式：
+Block formula:
 
 $$
 \frac{n!}{k!(n-k)!} = \binom{n}{k}
@@ -653,33 +653,33 @@ $$
 </details>
 
 <details>
-<summary>Mermaid 流程图</summary>
+<summary>Mermaid Flowcharts</summary>
 
-主题内置了 Mermaid 支持：
+The theme has built-in Mermaid support:
 
 ````markdown
 ```mermaid
 graph TD
-    A[开始] --> B[处理]
-    B --> C{判断}
-    C -->|是| D[结束]
-    C -->|否| B
+    A[Start] --> B[Process]
+    B --> C{Decision}
+    C -->|Yes| D[End]
+    C -->|No| B
 ```
 ````
 
 </details>
 
 <details>
-<summary>代码块</summary>
+<summary>Code Blocks</summary>
 
-代码块基于 [Expressive Code](https://expressive-code.com/) 实现，支持：
+Code blocks are implemented based on [Expressive Code](https://expressive-code.com/), supporting:
 
-- 语法高亮
-- 行号显示
-- 代码折叠（使用 `collapse` 标记）
-- 代码复制按钮
+- Syntax highlighting
+- Line numbers
+- Code folding (using `collapse` marker)
+- Copy button
 
-#### 基本代码块
+#### Basic Code Block
 
 ````markdown
 ```javascript
@@ -689,16 +689,16 @@ function hello() {
 ```
 ````
 
-#### 代码折叠
+#### Code Folding
 
 ````markdown
 ```js collapse={1-5, 12-14}
-// 这些行默认折叠
+// These lines are collapsed by default
 function example() {
   console.log("Hello");
 }
 
-// 这些行默认展开
+// These lines are expanded by default
 const result = example();
 ```
 ````
@@ -706,52 +706,52 @@ const result = example();
 </details>
 
 <details>
-<summary>内置组件</summary>
+<summary>Built-in Components</summary>
 
-主题提供了丰富的内置 MDX 组件：
+The theme provides rich built-in MDX components:
 
-#### 链接组件
+#### Link Components
 
-##### 内部链接
+##### Internal Links
 
-用于在文章中创建指向其他文章的精美链接卡片，支持显示封面图和摘要。适合在文章中推荐相关内容或创建内容导航。
+Creates beautiful link cards for other articles with cover images and summaries. Suitable for recommending related content or creating content navigation within articles.
 
 ```markdown
-<Link slug="post-slug" title="文章标题" cover="封面URL" />
+<Link slug="post-slug" title="Article Title" cover="Cover URL" />
 ```
 
 **Props:**
 
-- `slug` (`string`, 可选): 文章 slug
-- `url` (`string`, 可选): 外部链接 URL
-- `title` (`string`, 可选): 链接标题
-- `cover` (`string | "auto"`, 可选): 封面图片
+- `slug` (`string`, optional): Article slug
+- `url` (`string`, optional): External link URL
+- `title` (`string`, optional): Link title
+- `cover` (`string | "auto"`, optional): Cover image
 
-##### 外部链接
+##### External Links
 
-用于创建指向外部网站的精美链接卡片，自动识别为外部链接。适合在文章中分享外部资源或推荐其他网站。
+Creates beautiful link cards for external websites, automatically recognized as external links. Suitable for sharing external resources or recommending other websites within articles.
 
 ```markdown
 <Link url="https://github.com" title="GitHub" cover="auto" />
 ```
 
-#### 内容组件
+#### Content Components
 
-##### 友情链接卡片
+##### Friend Link Cards
 
-展示友情链接列表，每个链接包含头像、名称和描述。适合在关于页面或专门的友链页面展示合作伙伴网站。
+Displays a list of friend links, each containing avatar, name, and description. Suitable for showcasing partner websites on about pages or dedicated friend link pages.
 
-友情链接卡片使用全局配置中的友链列表：
+Friend link cards use the friend link list from global configuration:
 
 ```markdown
 <FriendCard />
 ```
 
-**Props:** 无
+**Props:** None
 
-##### 热力图卡片
+##### Heat Map Card
 
-基于访问量数据生成热力图可视化，展示内容活跃度。适合在个人主页或数据统计页面展示访问数据。
+Generates a heat map visualization based on visit data, showing content activity. Suitable for displaying visit data on personal homepages or statistical pages.
 
 ```markdown
 <HeatMapCard levelStandard="1000,5000,10000" />
@@ -759,187 +759,183 @@ const result = example();
 
 **Props:**
 
-- `levelStandard` (`string`, 可选): 等级标准，默认 "1000,5000,10000"
+- `levelStandard` (`string`, optional): Level standards, default "1000,5000,10000"
 
-##### 标签轮盘
+##### Tag Roulette
 
-以轮盘形式展示标签列表，用户可以点击随机选择标签。适合在标签页面或侧边栏增加趣味性交互。
+Displays a tag list in roulette form, allowing users to randomly select tags by clicking. Suitable for adding fun interaction on tag pages or sidebars.
 
 ```markdown
-<TagRoulette tags="标签1,标签2,标签3" icon="🎯" />
+<TagRoulette tags="tag1,tag2,tag3" icon="🎯" />
 ```
 
 **Props:**
 
-- `tags` (`string`, 可选): 标签列表，用逗号分隔，默认预设标签
-- `icon` (`string`, 可选): 按钮图标，默认 "🕹️"
+- `tags` (`string`, optional): Tag list separated by commas, defaults to preset tags
+- `icon` (`string`, optional): Button icon, default "🕹️"
 
-#### 布局组件
+#### Layout Components
 
-##### 标签页
+##### Tabs
 
-创建多标签页界面，可以在同一区域展示不同内容。适合展示相关内容的多个方面或选项卡式导航。
+Creates a multi-tab interface for displaying different content in the same area. Suitable for showing multiple aspects of related content or tabbed navigation.
 
 ```markdown
 <Tabs active={1} center={false}>
-  <TabItem title="Tab 1">内容1</TabItem>
-  <TabItem title="Tab 2">内容2</TabItem>
+  <TabItem title="Tab 1">Content 1</TabItem>
+  <TabItem title="Tab 2">Content 2</TabItem>
 </Tabs>
 ```
 
 **Tabs Props:**
 
-- `active` (`number`, 可选): 默认激活的标签页，默认 1
-- `center` (`boolean`, 可选): 是否居中，默认 false
+- `active` (`number`, optional): Default active tab, default 1
+- `center` (`boolean`, optional): Center alignment, default false
 
 **TabItem Props:**
 
-- `title` (`string`, 必需): 标签页标题
+- `title` (`string`, required): Tab title
 
-##### 折叠详情
+##### Details
 
-创建可展开/折叠的内容区域，可以隐藏次要信息。适合展示详细说明、代码示例或长文本内容。
+Creates an expandable/collapsible content area to hide secondary information. Suitable for displaying detailed explanations, code examples, or long text content.
 
 ```markdown
-<Details summary="点击展开">
-  这里是折叠的内容
+<Details summary="Click to expand">
+  Content here
 </Details>
 ```
 
 **Props:**
 
-- `summary` (`string`, 必需): 折叠标题
+- `summary` (`string`, required): Collapse title
 
-##### 网格布局
+##### Grid Layout
 
-创建响应式网格布局，可以灵活排列内容。适合展示卡片列表、图片网格或等宽内容块。
+Creates a responsive grid layout for flexible content arrangement. Suitable for displaying card lists, image grids, or equal-width content blocks.
 
 ```markdown
 <Grid col={3}>
-  <GridCell>单元格1</GridCell>
-  <GridCell>单元格2</GridCell>
-  <GridCell>单元格3</GridCell>
+  <GridCell>Cell 1</GridCell>
+  <GridCell>Cell 2</GridCell>
+  <GridCell>Cell 3</GridCell>
 </Grid>
 ```
 
 **Grid Props:**
 
-- `width` (`number`, 可选): 最小宽度，默认 240
-- `col` (`number`, 可选): 列数，优先于 width
+- `width` (`number`, optional): Minimum width, default 240
+- `col` (`number`, optional): Number of columns, takes precedence over width
 
-**GridCell Props:** 无
+**GridCell Props:** None
 
-##### 照片墙
+##### Photo Gallery
 
-创建精美的图片展示墙，支持灯箱效果。适合在文章中展示多张图片或创建图片集页面。
+Creates a beautiful image display wall with lightbox effects. Suitable for displaying multiple images in articles or creating image collection pages.
 
 ```markdown
 <Gallery>
-  ![图片1](image1.jpg)
-  ![图片2](image2.jpg)
+  ![Image 1](image1.jpg)
+  ![Image 2](image2.jpg)
 </Gallery>
 ```
 
-**Props:** 无
+**Props:** None
 
-##### 警告块
+##### Alert Block
 
-创建不同类型的提示信息框，支持多种样式。适合突出重要信息、警告或提示用户注意。
+Creates different types of prompt information boxes with various styles. Suitable for highlighting important information, warnings, or prompting user attention.
 
 ```markdown
-<AlertBlockquote type="info" title="提示">
-  这是一个信息提示
+<AlertBlockquote type="info" title="Tip">
+  This is an info tip
 </AlertBlockquote>
 
 <AlertBlockquote type="warning">
-  这是一个警告提示
+  This is a warning tip
 </AlertBlockquote>
 
 <AlertBlockquote type="danger">
-  这是一个危险提示
+  This is a danger tip
 </AlertBlockquote>
 ```
 
 **Props:**
 
-- `type` (`"info" | "warning" | "danger" | "tip" | "important"`, 可选): 警告类型，默认 "info"
-- `title` (`string`, 可选): 自定义标题，默认使用 type 大写
+- `type` (`"info" | "warning" | "danger" | "tip" | "important"`, optional): Alert type, default "info"
+- `title` (`string`, optional): Custom title, defaults to type in uppercase
 
 </details>
 
-## 部署
+## Deployment
 
-### 配置站点信息
+### Configure Site Information
 
-编辑 `astro.config.mjs`：
+Edit `astro.config.mjs`:
 
 ```javascript
 export default defineConfig({
-  site: "https://yourusername.github.io", // 你的站点 URL
-  base: "/your-repo-name", // 子路径（如部署到 GitHub Pages）
+  site: "https://yourusername.github.io", // Your site URL
+  base: "/your-repo-name", // Subpath (for GitHub Pages deployment)
   // ...
 });
 ```
 
 ### GitHub Pages
 
-1. 构建项目：
+1. Build the project:
 
 ```bash
 pnpm run build
 ```
 
-2. 将 `dist/` 目录部署到 GitHub Pages
+2. Deploy the `dist/` directory to GitHub Pages
 
-或者配置 GitHub Actions 自动部署（推荐），具体可参考 [GitHub Pages](https://docs.astro.build/zh-cn/guides/deploy/github/)。
+Or configure GitHub Actions for automatic deployment (recommended). See [GitHub Pages](https://docs.astro.build/en/guides/deploy/github/) for details.
 
 ### Vercel / Netlify
 
-这些平台会自动识别 Astro 项目：
+These platforms automatically recognize Astro projects:
 
-1. 连接 GitHub 仓库
-2. 平台会自动检测并使用正确的构建命令
-3. 点击部署即可，具体请参考 [Netlify](https://docs.astro.build/zh-cn/guides/deploy/netlify/) 或 [Vercel](https://docs.astro.build/zh-cn/guides/deploy/vercel/) 文档。
+1. Connect your GitHub repository
+2. The platform will automatically detect and use the correct build commands
+3. Click deploy. See [Netlify](https://docs.astro.build/en/guides/deploy/netlify/) or [Vercel](https://docs.astro.build/en/guides/deploy/vercel/) documentation for details.
 
-## 开发
+## Development
 
-### 添加新页面
+### Adding New Pages
 
-在 `src/pages/` 目录下创建文件即可，Astro 会自动处理路由。
+Create files in the `src/pages/` directory, and Astro will automatically handle routing.
 
-### 修改样式
+### Modifying Styles
 
-样式文件位于 `src/styles/` 目录：
+Style files are located in the `src/styles/` directory:
 
-- `base.stylus` - 基础样式
-- `global.css` - 全局样式
-- `markdown.stylus` - Markdown 渲染样式
-- 其他样式文件...
+- `base.stylus` - Base styles
+- `global.css` - Global styles
+- `markdown.stylus` - Markdown rendering styles
+- Other style files...
 
 ### i18n
 
-语言文件位于 `src/languages/` 目录，支持的语言：
+Language files are located in the `src/languages/` directory. Supported languages:
 
 - `en.ts` - English
-- `zh-cn.ts` - 简体中文
-- `zh-tw.ts` - 繁体中文
-- `ja.ts` - 日本語
+- `zh-cn.ts` - Simplified Chinese
+- `zh-tw.ts` - Traditional Chinese
+- `ja.ts` - Japanese
 
-要添加新语言，创建对应的 `.ts` 文件并参考现有文件的结构。
+To add a new language, create a corresponding `.yml` file and refer to the structure of existing files.
 
-## 贡献者
+## Contributors
 
 [![](https://contributors-img.web.app/image?repo=D-Sketon/astro-theme-reimu)](https://github.com/D-Sketon/astro-theme-reimu/graphs/contributors)
-
-## 赞助 💘
-
-[爱发电-afdian](https://afdian.tv/a/dsketon)
 
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=D-Sketon/astro-theme-reimu&type=date&legend=top-left)](https://www.star-history.com/#D-Sketon/astro-theme-reimu&type=date&legend=top-left)
 
-## 许可
+## License
 
 MIT
 
