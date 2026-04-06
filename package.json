@@ -64,9 +64,13 @@
     "hast-util-to-html": "^9.0.5",
     "postcss-preset-env": "^10.6.1",
     "reading-time": "^1.5.0",
+    "sass": "1.97.3",
     "stylus": "^0.64.0",
+    "typescript": "5.9.3",
     "unist-util-visit": "^5.1.0",
-    "vite-plugin-font": "^5.1.2"
+    "vite-plugin-font": "^5.1.2",
+    "webcoreui": "1.4.0",
+    "wrangler": "^4.80.0"
   },
   "engines": {
     "node": ">=22.12.0"

@@ -1,15 +1,15 @@
 export default {
   site: {
-    title: "My Blog",
-    subtitle: "My Blog Subtitle",
-    description: "D-Sketon's blog",
-    keywords: "D-Sketon, blog, astro, theme",
-    author: "D-Sketon",
-    language: "zh-CN",
+    title: "Krieger's Homepage",
+    subtitle: "",
+    description: "A place for my stuff.",
+    keywords: "blog, astro, theme",
+    author: "Krieger",
+    language: "en",
   },
 
   sidebar: {
-    avatar: "/images/avatar.webp",
+    avatar: "/images/violia_chibi.png",
     position: "right", // left or right
   },
 
@@ -27,16 +27,16 @@ export default {
 
   // If you want to use the srcset attribute, please enable it
   banner_srcset: {
-    enable: true,
+    enable: false,
     srcset: [
       { src: "/images/banner-600w.webp", media: "(max-width: 479px)" },
       { src: "/images/banner-800w.webp", media: "(max-width: 799px)" },
-      { src: "/images/banner.webp", media: "(min-width: 800px)" },
+      { src: "/src/assets/images/banner.webp", media: "(min-width: 800px)" },
     ],
   },
 
   footer: {
-    since: 2020, // 2020 - current year
+    since: 2026, // 2020 - current year
     powered: true,
     count: true,
     busuanzi: true,
@@ -52,16 +52,16 @@ export default {
 
   analytics: {
     baidu_analytics: false,
-    google_analytics: false,
+    google_analytics: 389811668,
     clarity: false,
   },
 
   social: {
     // email: mailto:xxx@gmail.com
-    github: "https://github.com/yourname",
-    google: "https://plus.google.com/yourname",
-    twitter: "https://twitter.com/yourname",
-    facebook: "https://www.facebook.com/yourname",
+    github: "https://github.com/Krieger1356",
+    // google: "https://plus.google.com/yourname",
+    // twitter: "https://twitter.com/yourname",
+    // facebook: "https://www.facebook.com/yourname",
     // instagram: https://www.instagram.com/yourname
     // linkedin: https://www.linkedin.com/in/yourname
     // pinterest: https://www.pinterest.com/yourname
@@ -73,14 +73,14 @@ export default {
     // bilibili: https://space.bilibili.com/yourname
     // weibo: https://weibo.com/yourname
     // zhihu: https://www.zhihu.com/people/yourname
-    // reddit: https://www.reddit.com/user/yourname
+    reddit: "https://www.reddit.com/user/Krieger1356",
     // tumblr: https://yourname.tumblr.com
     // medium: https://medium.com/@yourname
     // deviantart: https://yourname.deviantart.com
     // keybase: https://keybase.io/yourname
     // telegram: https://t.me/yourname
-    // discord: https://discordapp.com/users/yourname
-    // steam: https://steamcommunity.com/id/yourname
+    // discord: "Krieger#0144",
+    steam: "https://steamcommunity.com/id/Krieger1356",
   },
 
   // https://valine.js.org
@@ -190,7 +190,7 @@ export default {
 
   preloader: {
     enable: true,
-    text: "少女祈祷中...",
+    text: "One Moment Please...",
     rotate: true, // whether to rotate the icon
   },
 
