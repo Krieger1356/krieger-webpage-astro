@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/MarkdownLayout.astro
 title: About
-pubDate: "Jul 08 2022"
+pubDate: "2026-03-31"
 ---
 
 import Link from '/src/components/mdx/Link.astro';
@@ -10,11 +10,22 @@ import Details from '/src/components/mdx/Details.astro';
 import Tabs from '/src/components/mdx/Tabs.astro';
 import TabItem from '/src/components/mdx/TabItem.astro';
 import Gallery from '/src/components/mdx/Gallery.astro';
+import HeatMapCard from '/src/components/mdx/HeatMapCard.astro';
 import { Carousel } from 'webcoreui/astro';
 import { Accordion } from 'webcoreui/astro';
+
+## About
 
 Something something about me, I'm sure I'll fill this out eventually...
 
 But, for now:
 
-[Useful Resources](/blog/resources)
+## Resources
+
+<Link title="Resources" url="/blog/resources" cover="/images/mizu_banner.webp" />
+
+---
+
+## Post Heat Map
+
+<HeatMapCard levelStandard="1000,5000,10000" />
