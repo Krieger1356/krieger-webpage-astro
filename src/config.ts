@@ -1,8 +1,8 @@
 export default {
   site: {
     title: "Krieger's Homepage",
-    subtitle: "",
-    description: "A place for my stuff.",
+    subtitle: "A Place My Stuff",
+    description: "Engineer, Gamer, Bot Creator",
     keywords: "blog, astro, theme",
     author: "Krieger",
     language: "en",
@@ -260,8 +260,6 @@ export default {
     "facebook",
     "linkedin",
     "reddit",
-    "qq",
-    "weixin",
   ],
 
   sponsor: {
