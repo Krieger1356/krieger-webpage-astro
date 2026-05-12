@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Michroma';
+  src: url('../assets/Michroma.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  ascent-override: 115.62%;
+  descent-override: 26.56%;
+  line-gap-override: 0%;
+}
+
 :root {
   --red-0: #ff0000;
   --red-1: #ff5252;
@@ -198,8 +208,7 @@ body {
   transition: background 1s;
   text-autospace: normal;
   color: var(--color-default);
-  font-family: 'LXGW WenKai Screen', -apple-system, PingFang SC,
-    Microsoft YaHei, sans-serif;
+  font-family: 'Michroma', -apple-system, sans-serif;
   transition: 0.3s;
   line-height: 1;
 }

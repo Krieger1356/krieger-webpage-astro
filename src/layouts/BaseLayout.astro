@@ -96,8 +96,14 @@ const headerImage = cover || BANNER;
     <div id="mask" class="hide"></div>
     <SidebarScript />
     <script>
-      import { css } from "../assets/LXGWWenKaiScreen.ttf";
-      document.body.style.fontFamily = css.family as string;
+    function initAudio() {
+    document.querySelectorAll('audio').forEach(audio => {
+      audio.load();
+      });
+      }
+
+    // Run on view transition navigation
+    document.addEventListener('astro:page-load', initAudio);
     </script>
   </body>
 </html>
