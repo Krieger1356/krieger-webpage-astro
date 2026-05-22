@@ -3,7 +3,7 @@ export default {
     title: "Krieger's Homepage",
     subtitle: "A Place My Stuff",
     description: "Engineer, Gamer, Bot Creator",
-    keywords: "blog, astro, theme",
+    keywords: "Krieger, worldbuilding, Valik'thull, Minecraft server, engineering, bot development, Astro",
     author: "Krieger",
     language: "en",
   },
@@ -79,7 +79,7 @@ export default {
     // deviantart: https://yourname.deviantart.com
     // keybase: https://keybase.io/yourname
     // telegram: https://t.me/yourname
-    // discord: "Krieger#0144",
+    // discord: "@krieger1356",
     steam: "https://steamcommunity.com/id/Krieger1356",
   },
 
