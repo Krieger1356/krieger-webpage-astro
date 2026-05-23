@@ -9,10 +9,6 @@
     {
       "pattern": "www.kriegerhost.xyz",
       "custom_domain": true
-    },
-    {
-      "pattern": "kriegerhost.xyz",
-      "custom_domain": true
     }
   ]
 }
