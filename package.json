@@ -1,8 +1,8 @@
 {
-  "name": "astro-theme-reimu",
+  "name": "krieger-webpage-astro",
   "private": true,
   "type": "module",
-  "version": "0.4.2",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "dev": "astro dev",

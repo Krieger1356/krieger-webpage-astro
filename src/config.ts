@@ -52,7 +52,7 @@ export default {
 
   analytics: {
     baidu_analytics: false,
-    google_analytics: 389811668,
+    google_analytics: false,
     clarity: false,
   },
 
@@ -168,10 +168,7 @@ export default {
 
   friend: [
     {
-      name: "D-Sketon",
-      url: "https://d-sketon.github.io/",
-      desc: "Main Site with hexo-theme-reimu",
-      avatar: "https://d-sketon.github.io/avatar/avatar.webp",
+      
     },
   ],
 
@@ -197,7 +194,7 @@ export default {
   // see https://github.com/D-Sketon/mouse-firework
   firework: {
     enable: true,
-    disable_on_mobile: false,
+    disable_on_mobile: true,
     options: {
       excludeElements: ["a", "button"],
       particles: [
