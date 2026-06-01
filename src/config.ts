@@ -1,7 +1,7 @@
 export default {
   site: {
     title: "Krieger's Homepage",
-    subtitle: "A Place My Stuff",
+    subtitle: "A Place for My Stuff",
     description: "Engineer, Gamer, Bot Creator",
     keywords: "Krieger, worldbuilding, Valik'thull, Minecraft server, engineering, bot development, Astro",
     author: "Krieger",
@@ -28,11 +28,7 @@ export default {
   // If you want to use the srcset attribute, please enable it
   banner_srcset: {
     enable: false,
-    srcset: [
-      { src: "/images/banner-600w.webp", media: "(max-width: 479px)" },
-      { src: "/images/banner-800w.webp", media: "(max-width: 799px)" },
-      { src: "/src/assets/images/banner.webp", media: "(min-width: 800px)" },
-    ],
+    srcset: [],
   },
 
   footer: {
@@ -166,11 +162,7 @@ export default {
     count: true,
   },
 
-  friend: [
-    {
-      
-    },
-  ],
+  friend: [],
 
   copyright: {
     enable: true,
@@ -252,10 +244,7 @@ export default {
   },
 
   share: [
-    "weibo",
     "twitter",
-    "facebook",
-    "linkedin",
     "reddit",
   ],
 
